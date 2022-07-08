@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+// import CompoundPattern from './page/CompoundPattern';
+// import CompoundPatternWithStyledComp from './page/CompoundPatternWithStyledComp';
+import SystemDesign from './page/SystemDesign';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <aside className="app_aside">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </aside>
+      <main>
+        <h1>iAmSebastian Compound Pattern</h1>
+        {/* <CompoundPattern /> */}
+        {/* <CompoundPatternWithStyledComp /> */}
+        <SystemDesign />
+      </main>
+
     </div>
   );
 }
