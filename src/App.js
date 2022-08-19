@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-// import CompoundPattern from './page/CompoundPattern';
-// import CompoundPatternWithStyledComp from './page/CompoundPatternWithStyledComp';
+import CompoundPattern from './page/CompoundPattern';
+import CompoundPatternWithStyledComp from './page/CompoundPatternWithStyledComp';
 import SystemDesign from './page/SystemDesign';
 
 function App() {

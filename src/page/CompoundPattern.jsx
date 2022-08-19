@@ -8,6 +8,7 @@ import Card from '../components/card';
 // import CardDescription from '../components/card/CardDescription';
 
 import imgAsset from '../assets/collins.jpg';
+import imgAsset1 from '../assets/didin.jpg';
 import CardButtons from '../components/card/CardButtons';
 import CardDescriptionCollapsed from '../components/card/CardDescriptionCollapsed';
 
@@ -20,7 +21,7 @@ const arrayCards = [{
 }, {
   title: 'Card2 Config-Compound-Pattern',
   subtitle: 'Subtitle from config',
-  imgUrl: imgAsset,
+  imgUrl: imgAsset1,
   altContext: 'Imagen Cascada',
   description: 'Descripción desde config-Compound'
 }];

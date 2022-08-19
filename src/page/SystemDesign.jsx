@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ButtonSeb from '../button/ButtonSeb';
 import Input, { PasswordInput } from '../input/Input';
 
 const SystemDesign = () => {
@@ -23,12 +22,6 @@ const SystemDesign = () => {
             onChange={({target})=>setPassword(target.value)}
             value={password}
         />
-        <button
-            onClick={()=>{
-                setDatos(password);
-                console.log(datos);
-            }}
-        >Enviar datos</button>
         <p>La contraseña es {password}</p>
         <PasswordInput
             label='Password Input'
@@ -36,7 +29,6 @@ const SystemDesign = () => {
             onChange={({target})=>setPassword(target.value)}
             value={password}
         />
-        <ButtonSeb />
     </div>
   );
 };

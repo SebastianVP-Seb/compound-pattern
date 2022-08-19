@@ -5,7 +5,7 @@ import { contextCard } from './Card';
 const CardDescriptionCollapsed = ({description}) => {
 
     const { description: descriptionContext }=useContext(contextCard);
-    const [collapsed, setCollapsed]=useState(true);
+    const [collapsed, setCollapsed]=useState(false);
 
   return (
     <>
